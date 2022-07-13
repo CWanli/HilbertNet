@@ -1,5 +1,5 @@
 ## Personal Statement
-I strongly disagree with the following statement from ECCV committee.
+ECCV is recognized as the top conference in computer vision. I don't want one of the best CV conference to become a political venue.
 ![img|center](./personal_statement.png)
 **We all know which country should be first blamed for this war**.
 
