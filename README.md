@@ -1,6 +1,6 @@
 # Efficient Point Cloud Analysis Using Hilbert Curve
 
- The source code of our work **"Efficient Point Cloud Analysis Using Hilbert Curve**
+ The source code of our work **"Efficient Point Cloud Analysis Using Hilbert Curve"**
 ![img|center](./framework.png)
 ## News
 HilbertNet is accepted to ECCV 2022
