@@ -18,4 +18,4 @@ Download and unzip the given data into `data/` directory
 1. train the network by running "sh train.sh"
 
 ## Acknowledgments
-We thanks for the opensource codebases, [PointNet](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) [SO-Net](https://github.com/lijx10/SO-Net.git) and [spconv](https://github.com/traveller59/spconv)
+We thanks for the opensource codebases, [PointNet](https://github.com/yanx27/Pointnet_Pointnet2_pytorch), [SO-Net](https://github.com/lijx10/SO-Net.git) and [spconv](https://github.com/traveller59/spconv)
