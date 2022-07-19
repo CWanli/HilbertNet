@@ -4,7 +4,7 @@
 ![img|center](./framework.png)
 
 ### Requirements
-- PyTorch >= 1.6 
+- PyTorch >= 1.6
 - pandas
 - numpy
 - [spconv](https://github.com/traveller59/spconv) (tested with spconv==1.2.1 and cuda==10.2)
