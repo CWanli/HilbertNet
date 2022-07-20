@@ -5,14 +5,14 @@ from .HilbertPool import HP
 from .HilbertInterp import HI
 
 class Basic_unit(nn.Module):
-    def __init__(self, in_channel1d, out_channel1d, in_channel2d, out_channel2d, k, s, p, is_pool, coord=None, distance=None):
+    def __init__(self, in_channel1d, out_channel1d, in_channel2d, out_channel2d, k, s, p, dist, is_pool, coord=None, distance=None):
         super(Basic_unit, self).__init__()
         self.S_MLP = nn.Sequential(
             nn.Conv1d(in_channels=in_channel1d, out_channels=out_channel1d, kernel_size=k, stride=s, padding=p),
             nn.BatchNorm1d(out_channel1d),
             nn.ReLU(True)
         )
-        self.HI = HI(out_channel1d, 1024)
+        self.HI = HI(out_channel1d, 1024, dist)
         self.HA = HA(in_channel2d, out_channel2d)
         self.is_pool = is_pool
         if is_pool:
