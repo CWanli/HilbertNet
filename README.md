@@ -10,7 +10,7 @@
 - [spconv](https://github.com/traveller59/spconv)
 
 ## Data Preparation
-Download and unzip the data into `data/` directory
+Download and unzip the [data](https://drive.google.com/drive/folders/1dvAxXiKdL6h2aH83L556LULYOquT48Qm) into `data/` directory
 
 ## Running
 Run the network by using the command `sh run.sh`
